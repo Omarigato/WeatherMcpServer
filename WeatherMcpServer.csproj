@@ -7,22 +7,19 @@
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>enable</ImplicitUsings>
 
-		<!-- Set up the NuGet package to be an MCP server -->
 		<PackAsTool>true</PackAsTool>
 		<PackageType>McpServer</PackageType>
 
-		<!-- Set recommended package metadata -->
 		<PackageReadmeFile>README.md</PackageReadmeFile>
-		<PackageId>WeatherMcpServer</PackageId>
-		<PackageVersion>1.0.0</PackageVersion>
-		<PackageTags>AI; MCP; server; stdio; weather; openweathermap</PackageTags>
-		<Description>A comprehensive weather MCP server that provides real-time weather information using OpenWeatherMap API.</Description>
-		<Authors>Your Name</Authors>
-		<RepositoryUrl>https://github.com/yourusername/weather-mcp-server</RepositoryUrl>
+		<PackageId>RealWeatherMcpServer</PackageId>
+		<PackageVersion>2.0.0</PackageVersion>
+		<PackageTags>AI; MCP; server; stdio; weather; openweathermap; forecast; alerts; air-quality</PackageTags>
+		<Description>A comprehensive real weather MCP server with current conditions, forecasts, alerts, air quality, and smart recommendations using OpenWeatherMap API.</Description>
+		<Authors>FastMCP.me</Authors>
+		<RepositoryUrl>https://github.com/fastmcp/real-weather-mcp-server</RepositoryUrl>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 	</PropertyGroup>
 
-	<!-- Include additional files for browsing the MCP server. -->
 	<ItemGroup>
 		<None Include=".mcp\server.json" Pack="true" PackagePath="/.mcp/"/>
 		<None Include="README.md" Pack="true" PackagePath="/"/>
