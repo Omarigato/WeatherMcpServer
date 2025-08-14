@@ -1,0 +1,14 @@
+{
+	"servers": {
+		"my-mcp-server-6e0b9645": {
+			"type": "stdio",
+			"command": "dotnet",
+			"args": [
+				"run",
+				"--project",
+				"."
+			]
+		}
+	},
+	"inputs": []
+}
